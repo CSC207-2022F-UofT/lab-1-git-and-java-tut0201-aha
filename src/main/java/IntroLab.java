@@ -50,6 +50,11 @@ public class IntroLab {
     }
 
 
+    public static String glowack8() {
+        return  printLabMessage("Howdy", "Helena Glowacki", true,
+                "Cats are better than people");
+    }
+
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
 
@@ -59,8 +64,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
+        System.out.println(glowack8());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
