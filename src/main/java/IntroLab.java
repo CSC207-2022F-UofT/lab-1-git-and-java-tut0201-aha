@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+
 /**
  * This file contains a few exercises to familiarize you with Java.
  * <p>
@@ -49,6 +51,13 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    /**
+     * My example method that calls on printLabMessage.
+     */
+    public static String aaryavat() {
+        return printLabMessage("Heyyy :)", "Aarya", true,
+                "I want three cats!!");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -59,6 +68,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+
+        System.out.println(aaryavat());
 
 
     }
